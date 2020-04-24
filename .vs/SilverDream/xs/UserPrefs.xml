@@ -1,4 +1,40 @@
-﻿<Properties StartupConfiguration="{493544FC-9504-43D3-9611-EFC8789B2ACF}|Default">
+﻿<Properties GitUserInfo="UsingGIT" StartupConfiguration="{493544FC-9504-43D3-9611-EFC8789B2ACF}|Default">
+  <MonoDevelop.Ide.Workbench>
+    <Files>
+      <File FileName="Battles/Characters/Character.cs" Line="10" Column="1" IsPinned="True" />
+      <File FileName="Battles/Skills/MagicSkill.cs" Line="27" Column="31" />
+      <File FileName="Game/Game1.cs" Line="36" Column="79" />
+      <File FileName="Battles/Battle.cs" Line="35" Column="1" />
+      <File FileName="Battles/Characters/PlayerCharacter.cs" Line="16" Column="10" />
+      <File FileName="Battles/Characters/Stats.cs" Line="34" Column="24" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="SilverDream" expanded="True">
+            <Node name="SilverDream" expanded="True">
+              <Node name="Dependencies" expanded="True" />
+              <Node name="Battles" expanded="True">
+                <Node name="Characters" expanded="True">
+                  <Node name="Character.cs" selected="True" />
+                </Node>
+                <Node name="Skills" expanded="True" />
+              </Node>
+              <Node name="Game" expanded="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+      <Pad Id="MonoDevelop.Debugger.WatchPad">
+        <State />
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MonoDevelop.Ide.ItemProperties.SilverDream PreferredExecutionTarget="MonoDevelop.Default" />
   <MultiItemStartupConfigurations />
 </Properties>
