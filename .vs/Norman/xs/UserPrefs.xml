@@ -1,0 +1,37 @@
+﻿<Properties StartupConfiguration="{D99B7E18-1328-4B57-8F99-F0E18EBC2CF1}|Default">
+  <MonoDevelop.Ide.Workbench>
+    <Files>
+      <File FileName="Game1.cs" Line="1" Column="1" />
+      <File FileName="EmptyClass.cs" Line="14" Column="35" />
+      <File FileName="Stats.cs" Line="18" Column="23" />
+      <File FileName="EmptyClass.cs" Line="21" Column="1" />
+      <File FileName="Spell.cs" Line="14" Column="1" />
+      <File FileName="Character.cs" Line="10" Column="2" />
+      <File FileName="Battle.cs" Line="20" Column="41" />
+      <File FileName="Cost.cs" Line="7" Column="36" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="Norman" expanded="True">
+            <Node name="Norman" expanded="True">
+              <Node name="Battles" expanded="True">
+                <Node name="SkillList.cs" selected="True" />
+              </Node>
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+      <Pad Id="MonoDevelop.Debugger.WatchPad">
+        <State />
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.ItemProperties.Norman PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Release" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>
