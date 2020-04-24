@@ -4,10 +4,10 @@ namespace SilverDream.Battles.Skills
 {
     public interface Skill
     {
-        string Name { get; set; }
-        Cost Cost { get; set; }
+        string Name { get; }
+        Cost Cost { get; }
         void UseCost(Character user);
-        void ApplyEffect(Character receiver);
+        void ApplyEffect(Character user, Character receiver);
     }
 
 

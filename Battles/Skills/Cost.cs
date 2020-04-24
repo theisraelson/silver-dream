@@ -3,7 +3,8 @@ namespace SilverDream.Battles.Skills
 {
     public interface Cost
     {
-        int cost { get; set; }
+        string Name { get; }
+        int Cost { get; }
         void UseCost(Character user);
     }
 }

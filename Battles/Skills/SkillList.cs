@@ -11,9 +11,25 @@ namespace SilverDream.Battles.Skills
             list = new List<Skill>(maxSkills);
         }
 
-        public int getMaxSkills()
+        public int GetMaxSkills()
         {
             return list.Capacity;
+        }
+
+        public bool add(Skill skill)
+        {
+            bool output = false;
+            if(list.Capacity > list.Count)
+            {
+                list.Add(skill);
+                output = true;
+            }
+            return output;
+        }
+
+        public Skill GetSkillAt(int index)
+        {
+            return list[index];
         }
     }
 }
