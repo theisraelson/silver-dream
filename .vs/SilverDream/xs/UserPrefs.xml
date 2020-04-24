@@ -1,16 +1,23 @@
 ﻿<Properties GitUserInfo="UsingGIT" StartupConfiguration="{493544FC-9504-43D3-9611-EFC8789B2ACF}|Default">
   <MonoDevelop.Ide.Workbench>
     <Files>
-      <File FileName="Battles/Stats.cs" Line="24" Column="6" />
+      <File FileName="Battles/Stats.cs" Line="2" Column="1" />
+      <File FileName="Battles/Battle.cs" Line="3" Column="34" />
+      <File FileName="Battles/Skills/Skill.cs" Line="3" Column="37" />
+      <File FileName="Battles/Skills/SkillList.cs" Line="3" Column="37" />
+      <File FileName="Battles/Skills/Cost.cs" Line="8" Column="6" />
+      <File FileName="Battles/Characters/PlayerCharacter.cs" Line="18" Column="1" />
+      <File FileName="Battles/Characters/Character.cs" Line="11" Column="2" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
-          <Node name="SilverDream" expanded="True">
+          <Node name="SilverDream" expanded="True" selected="True">
             <Node name="SilverDream" expanded="True">
               <Node name="Dependencies" expanded="True" />
               <Node name="Battles" expanded="True">
-                <Node name="Stats.cs" selected="True" />
+                <Node name="Characters" expanded="True" />
+                <Node name="Skills" expanded="True" />
               </Node>
             </Node>
           </Node>

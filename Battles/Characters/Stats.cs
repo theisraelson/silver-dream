@@ -1,5 +1,4 @@
-﻿using System;
-namespace SilverDream.Battles
+﻿namespace SilverDream.Battles.Characters
 {
     public class Stats
     {
