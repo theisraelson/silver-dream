@@ -1,7 +1,8 @@
-﻿using System;
-using System.Collections.Generic;
+﻿using System.Collections.Generic;
+using SilverDream.Battles.Characters;
+using SilverDream.Battles.Skills;
 
-namespace SilverDream
+namespace SilverDream.Battles
 {
     public class Battle
     {

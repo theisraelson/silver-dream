@@ -29,5 +29,7 @@
   <ItemGroup>
     <Folder Include="Battles\" />
     <Folder Include="Game\" />
+    <Folder Include="Battles\Skills\" />
+    <Folder Include="Battles\Characters\" />
   </ItemGroup>
 </Project>
