@@ -19,8 +19,6 @@ namespace SilverDream.Battles
         {
             skill.UseCost(user);
             skill.ApplySkill(user, receiver);
-            skill.Effect.ApplyEffect(user, receiver);
-
         }
 
         public override string ToString()

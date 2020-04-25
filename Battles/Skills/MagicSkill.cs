@@ -8,13 +8,16 @@ namespace SilverDream.Battles.Skills
     public class MagicSkill : DamageSkill
     {
 
-        public MagicSkill(string name, Cost cost, SkillEffect effect, double skillStrength) :
-            base(name, cost, effect, skillStrength)
+        public MagicSkill(string name, Cost cost, double skillStrength) :
+            base(name, cost, skillStrength)
         { }
 
-        public override void ApplySkill(Character user, Character receiver)
+        public override void ApplySkill(Character user, params Character[] receivers)
         {
-            receiver.Stats.Hp -= GetDamageAmount(user, receiver, SkillStrength, user.Stats.Magic);
+            foreach (Character c in receivers)
+            {
+                c.Stats.Hp -= GetDamageAmount(user, c, SkillStrength, user.Stats.Magic);
+            }
         }
     }
 }

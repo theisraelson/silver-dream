@@ -1,14 +1,31 @@
 ﻿<Properties GitUserInfo="UsingGIT" StartupConfiguration="{493544FC-9504-43D3-9611-EFC8789B2ACF}|Default">
   <MonoDevelop.Ide.Workbench>
+    <Files>
+      <File FileName="Battles/Skills/Skill.cs" Line="19" Column="25" />
+      <File FileName="Battles/Skills/StateChangeSkill.cs" Line="19" Column="2" />
+      <File FileName="Battles/Skills/DamageSkill.cs" Line="11" Column="43" />
+      <File FileName="Battles/Skills/PhysicalSkill.cs" Line="10" Column="52" />
+      <File FileName="Battles/Skills/HealingSkill.cs" Line="11" Column="28" />
+      <File FileName="Battles/Skills/MagicSkill.cs" Line="11" Column="49" />
+      <File FileName="Battles/SkillEffects/SkillEffect.cs" Line="6" Column="29" />
+      <File FileName="Game/Game1.cs" Line="38" Column="62" />
+      <File FileName="Battles/Battle.cs" Line="22" Column="1" />
+    </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
-          <Node name="SilverDream" expanded="True" selected="True">
+          <Node name="SilverDream" expanded="True">
             <Node name="SilverDream" expanded="True">
               <Node name="Dependencies" expanded="True" />
               <Node name="Battles" expanded="True">
-                <Node name="Skills" expanded="True" />
+                <Node name="Characters" expanded="True" />
+                <Node name="Costs" expanded="True" />
+                <Node name="SkillEffects" expanded="True" />
+                <Node name="Skills" expanded="True">
+                  <Node name="HealingSkill.cs" selected="True" />
+                </Node>
               </Node>
+              <Node name="Content" expanded="True" />
               <Node name="Game" expanded="True" />
             </Node>
           </Node>

@@ -7,18 +7,18 @@ namespace SilverDream.Battles.Skills
 {
     public abstract class DamageSkill : Skill
     {
-        protected DamageSkill(string name, Cost cost, SkillEffect effect, double skillStrength) :
-            base(name, cost, effect, skillStrength)
+        protected DamageSkill(string name, Cost cost, double skillStrength) :
+            base(name, cost, skillStrength)
         { }
 
-        protected double GetDamageAmount(Character user, Character receiver, double SkillStrength, double magicOrDamageStat)
+        protected double GetDamageAmount(Character user, Character receiver, double SkillStrength, double magicOrPhysicalStat)
         {
             Stats uStats = user.Stats;
             Stats rStats = receiver.Stats;
             double lvlDifference = uStats.Level / rStats.Level;
             double random = GetRandomMultiplier();
 
-            double amount = (5 * Math.Sqrt(magicOrDamageStat / rStats.Defense * SkillStrength) * lvlDifference * random);
+            double amount = (5 * Math.Sqrt(magicOrPhysicalStat / rStats.Defense * SkillStrength) * lvlDifference * random);
 
             return amount;
         }

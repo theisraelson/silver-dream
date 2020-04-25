@@ -9,16 +9,14 @@ namespace SilverDream.Battles.Skills
     {
         public string Name { get; }
         public Cost Cost { get; }
-        public SkillEffect Effect { get; }
         public double SkillStrength { get; }
 
-        public abstract void ApplySkill(Character user, Character receiver);
+        public abstract void ApplySkill(Character user, params Character[] receivers);
 
-        public Skill(string name, Cost cost, SkillEffect effect, double skillStrength)
+        public Skill(string name, Cost cost, double skillStrength)
         {
             Name = name;
             Cost = cost;
-            Effect = effect;
             SkillStrength = skillStrength;
         }
 

@@ -5,9 +5,9 @@ using SilverDream.Battles.SkillEffects;
 
 namespace SilverDream.Battles.Skills
 {
-    public class PhysicalSkill : DamageSkill
+    public class HealingSkill : Skill
     {
-        public PhysicalSkill(string name, Cost cost, double skillStrength) :
+        public HealingSkill(String name, Cost cost, SkillEffect effect, double skillStrength) :
             base(name, cost, skillStrength)
         { }
 
@@ -15,8 +15,13 @@ namespace SilverDream.Battles.Skills
         {
             foreach(Character c in receivers)
             {
-                c.Stats.Hp -= GetDamageAmount(user, c, SkillStrength, user.Stats.Physical);
+                c.Stats.Hp += getHealingAmount(c, SkillStrength);
             }
+        }
+
+        public double getHealingAmount(Character receiver, double SkillStrength)
+        {
+            return receiver.Stats.Hp / (SkillStrength / 100);
         }
     }
 }
