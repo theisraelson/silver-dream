@@ -31,5 +31,7 @@
     <Folder Include="Game\" />
     <Folder Include="Battles\Skills\" />
     <Folder Include="Battles\Characters\" />
+    <Folder Include="Battles\Costs\" />
+    <Folder Include="Battles\SkillEffects\" />
   </ItemGroup>
 </Project>
