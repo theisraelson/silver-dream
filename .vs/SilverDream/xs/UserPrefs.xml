@@ -1,25 +1,15 @@
 ﻿<Properties GitUserInfo="UsingGIT" StartupConfiguration="{493544FC-9504-43D3-9611-EFC8789B2ACF}|Default">
   <MonoDevelop.Ide.Workbench>
-    <Files>
-      <File FileName="Battles/Characters/Character.cs" Line="10" Column="1" IsPinned="True" />
-      <File FileName="Battles/Skills/MagicSkill.cs" />
-      <File FileName="Game/Game1.cs" />
-      <File FileName="Battles/Battle.cs" />
-      <File FileName="Battles/Characters/PlayerCharacter.cs" />
-      <File FileName="Battles/Characters/Stats.cs" />
-    </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
-          <Node name="SilverDream" expanded="True">
+          <Node name="SilverDream" expanded="True" selected="True">
             <Node name="SilverDream" expanded="True">
               <Node name="Dependencies" expanded="True" />
               <Node name="Battles" expanded="True">
-                <Node name="Characters" expanded="True" />
                 <Node name="Skills" expanded="True" />
               </Node>
               <Node name="Game" expanded="True" />
-              <Node name="app.manifest" selected="True" />
             </Node>
           </Node>
         </State>

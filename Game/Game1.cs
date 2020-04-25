@@ -5,7 +5,10 @@ using Microsoft.Xna.Framework.Graphics;
 using Microsoft.Xna.Framework.Input;
 using SilverDream.Battles;
 using SilverDream.Battles.Skills;
+using SilverDream.Battles.Skills.Costs;
 using SilverDream.Battles.Characters;
+using SilverDream.Battles.Skills.SkillEffects;
+
 
 
 namespace SilverDream
@@ -26,13 +29,13 @@ namespace SilverDream
         {
             Stats stats1 = new Stats(20, 20, 2, 1243, 1, 2, 3, 2, 2);
             SkillList skills1 = new SkillList(4);
-            skills1.add(new MagicSkill("Whipshot", new Sp(3), 4));
+            skills1.add(new MagicSkill("Whipshot", new SpCost(3), new SkillEffect(1), 4));
             PlayerCharacter p1 = new PlayerCharacter("James", stats1, skills1);
 
 
             Stats stats2 = new Stats(20, 20, 2, 1243, 1, 2, 3, 2, 2);
             SkillList skills2 = new SkillList(4);
-            skills1.add(new MagicSkill("Flail", new Sp(3), 4));
+            skills2.add(new MagicSkill("Flail", new SpCost(3), new SkillEffect(1), 4));
             PlayerCharacter p2 = new PlayerCharacter("Jordan", stats2, skills2);
 
 

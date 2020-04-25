@@ -5,16 +5,15 @@ using SilverDream.Battles.SkillEffects;
 
 namespace SilverDream.Battles.Skills
 {
-    public class MagicSkill : DamageSkill
+    public class PhysicalSkill : DamageSkill
     {
-
-        public MagicSkill(string name, Cost cost, SkillEffect effect, double skillStrength) :
+        public PhysicalSkill(string name, Cost cost, SkillEffect effect, double skillStrength) :
             base(name, cost, effect, skillStrength)
         { }
 
         public override void ApplySkill(Character user, Character receiver)
         {
-            receiver.Stats.Hp -= GetDamageAmount(user, receiver, SkillStrength, user.Stats.Magic);
+            receiver.Stats.Hp -= GetDamageAmount(user, receiver, SkillStrength, user.Stats.Physical);
         }
     }
 }
